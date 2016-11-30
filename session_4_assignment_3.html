@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Session 4 | Assignment 3</title>
+	<style type="text/css">
+		@keyframes my-obj {
+			from {
+				background-color: green;
+				border-radius: 0;
+			}
+
+			to {
+				background-color: orange;
+				border-radius: 80%;
+			}
+		}
+
+		div.my-object {
+			display: table;
+			margin: 0 auto;
+			border: 1px solid #222;
+			background: green;
+			border-radius: 0;
+			width: 80px;
+			height: 80px;
+		}
+
+		div.my-object:hover {
+			animation-name: my-obj;
+			animation-duration: 5s;
+		}
+
+		div.my-object p {
+			display: table-cell;
+			text-align: center;
+			vertical-align: middle;
+		}
+	</style>
+</head>
+<body>
+	<div class="my-object">
+		<p>Box</p>
+	</div>
+</body>
+</html>
